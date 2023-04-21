@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap');
+body{
+    font-family: 'Karla', sans-serif;;
+    background-color: white;
+}
+
+footer{
+    background-image: url(bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  hsl(0, 0%, 98%);
+    margin-top: 10%;
+    padding: 5% 0 5% 0;
+}
+
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10% 0 10%;
+
+}
+
+#logo{
+
+}
+
+.icons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1{
+    color: hsl(256, 26%, 20%);
+}
+
+.bi-facebook, .bi-twitter, .bi-pinterest, .bi-instagram{
+    color: hsl(273, 4%, 51%);
+    cursor: pointer;
+}
+
+.bi-facebook:hover{
+    color: hsl(256, 26%, 20%);
+}
+
+.bi-twitter:hover{
+    color: hsl(256, 26%, 20%);
+}
+
+.bi-pinterest:hover{
+    color: hsl(256, 26%, 20%);
+}
+
+.bi-instagram:hover{
+    color: hsl(256, 26%, 20%);
+}
+
+#hr{
+    margin: 3% 10% 0 10%;
+}
+
+.footer-footer{
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 27%;
+
+}
+
+.services{
+    color: hsl(273, 4%, 51%);
+}
+
+div li{
+    list-style-type: none;
+}
+
+div a{
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+div a:hover{
+    text-decoration: underline;
+}
