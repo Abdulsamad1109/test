@@ -4,11 +4,82 @@ body{
     background-color: white;
 }
 
+
+
+
+#Navbar {
+    display: flex;
+    border: 1px solid white;
+    /* width: 100vw; */
+    height: 9vh; 
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+    font-weight: bolder;
+    font-size: 17px;
+ }
+ 
+ 
+ ul li {
+     list-style: none;
+ }
+
+ 
+
+ ul #navs{
+     text-decoration: none;
+     color:hsl(273, 4%, 51%);
+ }
+ 
+ #Navbar a:hover {
+     color: hsl(256, 26%, 20%);
+ }
+ 
+ 
+ ul {
+     display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      width: 25vw; 
+      margin-left: 40%; 
+      letter-spacing: 2px;
+      /* border: 2px solid red; */
+ }
+ #second {
+     /* margin-left: 3%; */
+     width: 10%;
+     height: 48%;
+     font-size: 14px;
+     font-weight: 700;
+     color: hsl(256, 26%, 20%);
+     background-color: white;
+     border: 2.15px solid hsl(256, 26%, 20%);
+     cursor: pointer;
+ }
+ 
+ #second:hover {
+     background-color: hsl(256, 26%, 20%);
+     color: white;
+     
+ }
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
 footer{
     background-image: url(bg-pattern-footer-desktop.svg);
     background-repeat: no-repeat;
     background-color:  hsl(0, 0%, 98%);
-    margin-top: 10%;
+    margin-top: 20%;
     padding: 5% 0 5% 0;
 }
 
@@ -20,9 +91,6 @@ footer{
 
 }
 
-#logo{
-
-}
 
 .icons{
     width: 15%;
